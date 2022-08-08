@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: whitesmoke;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-x: hidden;
+}
+
+body form center {
+  padding: 270px;
+}
+
+body form center button {
+  margin: 10px;
+  padding: 10px;
+  width: 5%;
+  border-radius: 15px;
+  justify-content: center;
+  background-color: #618bca;
+  align-items: center;
+}
+
+body form center button:hover {
+  margin: 10px;
+  padding: 10px;
+  width: 5%;
+  background-color: #20395f;
+  border-radius: 15px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: grey;
+  color: whitesmoke;
+  position: relative;
+}
+
+.navbar .brand {
+  font-size: 36px;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+
+.navbar .menu {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.navbar .menu a {
+  font-size: 14px;
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.navbar .menu a:hover {
+  color: #204782;
+  font-weight: bold;
+  transition: all 1.5ms;
+}
+
+main {
+  padding: 40px;
+}
+
+.home_page {
+  height: 500px;
+  position: relative;
+}
+
+.home_page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.home_page form {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background-color: pink;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.form_group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form_group label {
+  color: whitesmoke;
+  font-size: 14;
+}
+
+.form_group div {
+  margin-top: 10px;
+}
+
+.form_group div input {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  border-radius: 15px;
+}
+
+.form_group div textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  border-radius: 15px;
+}
+
+.form_group button {
+  height: 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #618bca;
+  color: whitesmoke;
+  font-size: 14;
+  font-family: inherit;
+  border-radius: 15px;
+}
+
+.form_group button:hover {
+  background-color: #3d76cc;
+  transition: all 1.5ms;
+  text-shadow: 3px 4px 5px #20395f;
+}
+
+section {
+  margin: 60px 0;
+}
+.quotes_card {
+  /* height: 100%; */
+  position: relative;
+  margin: 20px 0;
+}
+
+.quotes_card p {
+  position: absolute;
+  font-size: 26px;
+}
+
+.quotes_card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.q1 p {
+  bottom: 30%;
+  right: 4.5%;
+  max-width: 100%;
+}
+
+.q2 p {
+  bottom: 30%;
+  right: 24.5%;
+  max-width: 100%;
+}
+
+.q3 p {
+  bottom: 30%;
+  right: 20%;
+  max-width: 100%;
+}
